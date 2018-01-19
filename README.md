@@ -1,2 +1,2 @@
-# excel-jira-table-converter-
+# excel-jira-table-converter
 simple excel table to jira comment converter
