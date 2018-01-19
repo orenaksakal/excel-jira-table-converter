@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>From Excel To JIRA Table Converter</title>
+</head>
+<body>
+<style>
+    .form-wrapper{
+        text-align: center;
+        padding: 20px;
+    }
+
+    #text-given, #result{
+        width: 60%;
+        height: 300px;
+        float: none;
+        margin: 0 auto 29px;
+        display: block;
+    }
+</style>
+    <div class="form-wrapper">
+        <label>Column Delimeter:</label>
+        <select id="delimiter">
+            <option value="tab">Tab</option>
+            <option value="comma">Comma</option>
+            <option value="semicolon">Semicolon</option>
+        </select>
+    </div>
+    <div>
+        <textarea id="text-given" placeholder="Paste excel table here and JIRA output will appear below."></textarea>
+    </div>
+</div>
+
+    <textarea id="result"></textarea>
+    <script src="script.js"></script>
+</body>
+</html>
